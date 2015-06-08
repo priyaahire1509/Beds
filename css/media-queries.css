@@ -1,0 +1,39 @@
+@media(max-width:767px){
+	.navbar-default.custom-navbar{}
+	.custom-navbar .navbar-brand{padding: 13px 0}
+	.pagination>li.ward-name{display: block;width: 100%;position: relative;}
+	.pagination>li.ward-name a{margin-bottom: 0;padding-top: 5px}
+	.ward-beds{margin-left: 0}	
+	.row-status .col-xs-3{display: inline-block;width: 20%;}
+	.navbar-brand{font-size: 15px;padding-top: 10px}
+	.left-menu {left: -185px; /* top: 80px; */padding-top: 61px;}  
+    .left-menu.active {left: 0;}
+    .right-wrapper{margin-left: 0}  
+    .overview-text-head{padding-top: 0;font-weight: 500;font-size: 14px;border-bottom: 1px solid #F2F2F2;}  
+}
+@media(min-width:768px) and (max-width:991px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
+/*@media only screen  and (max-width : 580px){
+	.map{width: 100%}
+	.breadcrumb{display: none;}
+	.bread-crumb-site ul{margin:0;}
+	.each-box.col-xs-12{padding-right: 20px;padding-left: 20px}
+	.overview .white-partition{display: table-cell;}
+}*//*
+@media only screen  and (min-width :1250px) and (max-width:1417px ) {
+	.map img{height: 250px;}
+	.long-font{font-size: 30px;}
+	.each-box{padding-right: 5px;padding-left: 5px}
+	.list-group-item a{padding-left: 5px; padding-right: 15px}
+}
+@media only screen  and (min-width :960px) and (max-width:1249px ){
+	.long-font{font-size: 30px}
+	.each-box{padding-right: 5px;padding-left: 5px;width: 50%}
+	.map img{height: 250px;}
+	.side-menu-link{display: none;}
+	
+}
+
+*/
