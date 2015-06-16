@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">    
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" lang="EN" content=""/>
+  <meta name="description" content=""/>
+  <meta name="author" content="Priya"/>
+  <title>Bed Management System</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">     
+  <link href="css/style.css" rel="stylesheet" media="screen"> 
+  
+
+
+  <!-- <link href="css/media-queries.css" rel="stylesheet" media="screen"> -->
+  <script src="js/modernizr.js"></script>  
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. 
+    Please <a href="http://browsehappy.com/">upgrade your browser</a> 
+    to improve your experience.</p>
+    <![endif]-->
+  <!--[if lt IE 8]>
+        <link href="csss/bootstrap-ie7.css" rel="stylesheet">
+        <![endif]-->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+    </head>
+    <body class="body-bg bed-details-pg">
+      <header>
+        <nav class="navbar navbar-default custom-navbar">      
+          <div class="my-nav-bar-brand">            
+            <div class="pull-left">
+              <a href="#menu" class="side-menu-link pull-left">
+                <span class="glyphicon glyphicon-align-justify visible-sm visible-xs main-menu-link"></span>
+              </a>
+              <a class="navbar-brand custom-brand pull-right" href="index.htm">
+                <span class="hidden-xs hidden-sm">
+                  <!-- <img src="img/logo.png" alt="Logo" width ="30" height="30"> -->
+                </span>
+                KCC - Beds Management System
+              </a>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-header custom-dropdown">        
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Priya Ahire
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu sub-dropdown-menu" role="menu">
+                    <li>
+                      <a href="#">Edit Profile</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                      <a href="#">Logout</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div><!--custom-navbar-header-->
+        </nav><!--navbar-default-->
+      </header>
+      <section class="container-fluid">
+        <div class="beds wrapper">
+          <div class="top-bar cf">          
+            <div  class="pull-left">
+              <h4>Bed Name/ Red</h4>
+            </div>
+            <div class="pull-right">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="bedOverview.htm">Overview</a></li>              
+                <li  class="active"><a href="bookingHistory.htm.htm">Booking History</a></li> 
+                <li><a href="notes.htm">Notes</a></li>              
+              </ul>
+            </div><!--pull-right-->         
+          </div><!--top-bar-->
+
+          <ol class="breadcrumb custom-breadcrumb">
+           <li><a href="index.htm">Overview</a></li>
+           <li><a href="providerView.htm">Provider View</a></li>
+           <li>Bed View</li>           
+         </ol>
+
+         <div class="filter">
+          <div class="control">
+            <span>From</span>
+            <div>
+              <input type="text" class="form-control input-sm">
+              <i class="glyphicon glyphicon-calendar"></i>
+            </div>
+          </div><!--control-->
+          <div class="control">
+            <span>To</span>
+            <div>
+              <input type="text" class="form-control input-sm">
+              <i class="glyphicon glyphicon-calendar"></i>
+            </div>
+          </div><!--control-->
+
+          <div class="control">
+            <span>Status</span>
+            <select class="form-control input-sm">
+              <option>Select</option>
+              <option>Available</option>
+              <option>Blocked</option>
+            </select>
+          </div><!--control-->
+
+          <div class="control">
+            <span>Type</span>
+            <select class="form-control input-sm">
+              <option>Select</option>
+              <option>Respite</option>
+              <option>Assessment</option>
+            </select>
+          </div><!--control-->
+        </div>
+        <div class="beds cf">           
+          <div class="overview-holder">
+            <div class="overview-box">
+              <div><h5>Victora 24 Bed History</h5></div>
+              <div class="padding">                  
+                <div class="tabular-heading">
+                  <div>Booked On</div>
+                  <div>Expected Discharge</div>
+                  <div>Actual Discharge</div>
+                  <div>Type</div>
+                  <div class="small-width">Comments</div>
+                  <div class="small-width">Details</div>
+                </div><!--tabular-heading-->
+                <div class="tabular-data">
+                  <div>16/06/2015</div>
+                  <div>29/06/2015</div>
+                  <div>28/06/2015</div>
+                  <div>Respite</div>
+                  <div class="small-width"><a href="#" class="click-comment"><i class="glyphicon glyphicon-plus"></i> Expand</a></div>
+                  <div class="small-width"><a href="#"><i class="glyphicon glyphicon-eye-open"></i> View</a></div>
+                </div><!--tabular-data-->
+                <div class="tabular-data comment">
+                  MY comment goes here
+                </div><!--comment-->
+
+                <div class="tabular-data">
+                  <div>16/06/2015</div>
+                  <div>29/06/2015</div>
+                  <div>28/06/2015</div>
+                  <div>Respite</div>
+                  <div class="small-width"><a href="#" class="click-comment"><i class="glyphicon glyphicon-plus"></i> Expand</a></div>
+                  <div class="small-width"><a href="#"><i class="glyphicon glyphicon-eye-open"></i> View</a></div>
+                </div><!--tabular-data-->
+                <div class="tabular-data comment">
+                  MY comment goes here
+                </div><!--comment-->
+
+
+              </div><!--padding-->
+            </div><!--overview-box-->
+          </div><!--overview-holder-->
+
+          <div class="cal-area">                             
+            <div class="padding cf"> 
+              <img src="bed.jpeg"/>
+              
+              <div class="cal-legend">
+                <div>
+                  <span class="bg-lightgreen"></span>
+                  <span>Respite</span>
+                </div>
+                <div>
+                  <span class="bg-peach"></span>
+                  <span>Rehab</span>
+                </div>
+
+                <div>
+                  <span class="bg-amber"></span>
+                  <span>Rehab</span>
+                </div>
+                <div>
+                  <span class="bg-blue"></span>
+                  <span>Rehab</span>
+                </div>                
+
+              </div><!--cal-legend-->
+            </div><!--padding-->              
+          </div><!--calarea-->
+
+        </div><!--beds cf-->
+      </div><!--wrapper-->
+    </section>
+
+    <footer>
+      <div>&copy; Transforming Systems Ltd. 2015</div>
+      <div><b>Email:</b>support@transformingsystems.com
+       <p><b>Phone: </b>02033976626</p>
+     </div>
+
+   </footer>
+
+
+
+
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/bootstrap.min.js"></script> 
+
+   <script>
+     $(document).ready(function(){
+      $("a.click-comment").click(function(){
+        $(".comment").toggle();
+        }) // a.click-comment
+
+     }); //document.ready
+   </script>
+ </body>
+ </html>
+
